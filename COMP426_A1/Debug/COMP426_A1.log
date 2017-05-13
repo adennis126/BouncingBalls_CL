@@ -1,0 +1,21 @@
+﻿生成启动时间为 2015-12-06 20:15:20。
+     1>项目“C:\Users\york\Desktop\COMP426_test_project\COMP426_A1\COMP426_A1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ball_main.cpp
+         ball_main.cpp
+     1>c:\users\york\desktop\comp426_test_project\comp426_a1\ball_main.cpp(16): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>c:\users\york\desktop\comp426_test_project\comp426_a1\ball_main.cpp(92): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\york\desktop\comp426_test_project\comp426_a1\ball_main.cpp(93): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\york\desktop\comp426_test_project\comp426_a1\ball_main.cpp(108): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\york\desktop\comp426_test_project\comp426_a1\ball_main.cpp(224): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\users\york\desktop\comp426_test_project\comp426_a1\ball_main.cpp(249): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>c:\users\york\desktop\comp426_test_project\comp426_a1\ball_main.cpp(250): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\york\Desktop\COMP426_test_project\Debug\COMP426_A1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\york\Desktop\COMP426_test_project\COMP426_A1\Dependencies\freeglut /LIBPATH:"C:\Users\NAT23\Documents\Visual Studio 2013\Projects\COMP426_A1\COMP426_A1\Dependencies\glew" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" /LIBPATH:C:\Users\york\Desktop\COMP426_test_project\COMP426_A1\Dependencies\glew opengl32.lib freeglut.lib glew32.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\york\Desktop\COMP426_test_project\Debug\COMP426_A1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\york\Desktop\COMP426_test_project\Debug\COMP426_A1.lib" /MACHINE:X86 Debug\ball_main.obj
+         COMP426_A1.vcxproj -> C:\Users\york\Desktop\COMP426_test_project\Debug\COMP426_A1.exe
+     1>已完成生成项目“C:\Users\york\Desktop\COMP426_test_project\COMP426_A1\COMP426_A1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.94
